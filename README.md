@@ -1,23 +1,30 @@
 # NHL Player Database
 
-This application makes it easy to find how many points a player has scored by filtering the scoring statistic based on their team and/or position, ultimately narrowing the amount of players you need to look through. Thus, you don't need to scroll through the hundreds of players to find the player you're looking for. This can also be useful if you're trying to find the points of players on a specific team or position. The table gives an in-depth summary of the players scoring and time spent on the ice.
+This application streamlines the process of identifying player scoring statistics by allowing users to filter results based on team and/or position. This functionality significantly reduces the need to manually sift through extensive player lists, facilitating a more efficient search for specific players. Additionally, it is particularly advantageous for users seeking to analyze the performance of players from distinct teams or positions. The application provides a comprehensive summary table, detailing each player’s scoring achievements and ice time, enabling a deeper understanding of their contributions throughout the season.
+
+
+
 
 ## Data
 
-The bar on the graph represents the number of points a player has put up during the 2021 NHL season. The player is found by filtering by the NHL team, position on the ice, and the name of the player.
+The bar graph in the application visually represents the points accrued by each player during the 2021 NHL season. Players can be located by applying filters based on their NHL team, position on the ice, and name.
 
-The data consists of every player that has played over 3,000 seconds on the ice, which is equivalant to around 5 games in the NHL. This is done so we can focus on the players who have played a significant amount of the full 82-game season. Each row represents a player, in which there are 5 statistics tracked for each player:
+The dataset includes players who have logged over 3,000 seconds of ice time—approximately equivalent to five NHL games—allowing for a focused analysis of those who have significantly participated in the full 82-game season. Each row in the dataset corresponds to a player and tracks five key statistics:
 
-Team: The abbreviation for the NHL city that the player plays for.
+- Team: The abbreviation of the city's NHL team for which the player competes.
+- Position: The player's position, categorized as C (Center), L (Left Wing), R (Right Wing), or D (Defenseman).
+- Ice Time: The cumulative seconds the player has spent on the ice during the season.
+- I_F_Points: The aggregate of goals and assists recorded by the player.
+- I_F_Goals: The total goals scored by the player.
 
-Position: There are four positions tracked. C(center), L(left wing), R(right wing), D(defenseman).
+This structured data presentation enables users to efficiently analyze player performance across multiple dimensions.
 
-Ice time: The total amount of time in seconds the player has been on the ice during the season.
 
-I_F_points: The total amount of goals and assists that the player had during the season.
 
-I_F_goals: The total amount of goals that the player had during the season.
 
-## References
-
-- [Player statistics from the NHL in 2021](https://www.kaggle.com/datasets/mesadowski/nhl-player-and-team-data-20089202122)
+## Usage
+1. Clone the repository: `git clone https://github.com/your-username/NHL-Statistics-App.git`
+2. Run all .R scripts to start the R Shiny server and access the app
+3. Interact with the application:
+  - Use the dropdown menus to filter NHL player statistics by team, position, and name
+  - View a detailed table displaying player stats, using the checkbox to filter player attributes
