@@ -1,4 +1,4 @@
-## NHL Player Database
+# NHL Player Database
 
 This application makes it easy to find how many points a player has scored by filtering the scoring statistic based on their team and/or position, ultimately narrowing the amount of players you need to look through. Thus, you don't need to scroll through the hundreds of players to find the player you're looking for. This can also be useful if you're trying to find the points of players on a specific team or position. The table gives an in-depth summary of the players scoring and time spent on the ice.
 
