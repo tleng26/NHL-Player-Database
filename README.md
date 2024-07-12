@@ -1,6 +1,6 @@
 # NHL Player Database
 
-This application streamlines the process of identifying player scoring statistics by allowing users to filter results based on team and/or position. This functionality significantly reduces the need to manually sift through extensive player lists, facilitating a more efficient search for specific players. Additionally, it is particularly advantageous for users seeking to analyze the performance of players from distinct teams or positions. The application provides a comprehensive summary table, detailing each player’s scoring achievements and ice time, enabling a deeper understanding of their contributions throughout the season.
+This application streamlines the process of identifying player scoring statistics by allowing users to filter results based on team and/or position.
 
 
 
